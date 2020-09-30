@@ -1,0 +1,40 @@
+.main-content h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+.book-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.book-image {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-image:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 3px 8px;
+    background-color: #800000;
+    color: #fff;
+    text-decoration: none;
+}
